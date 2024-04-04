@@ -204,6 +204,7 @@ h1 {
   display: flex;
   margin-top: 16px;
 }
+
 .breadcrumb__list_item {
   font-family: Montserrat;
   font-size: 12px;
@@ -211,7 +212,6 @@ h1 {
   line-height: 18px;
   letter-spacing: 0.25px;
   text-align: center;
-
 }
 .breadcrumb span {
   display: block; margin: 0 8px 0 4px;
@@ -244,7 +244,20 @@ h1 {
 .filters__list :nth-child(3) {
   border: 2px solid #16c8bb;
 }
+.hero__info {
+  width: 588px;
+  height: 499px;
+}
+.hero__content {
+  width: 588px;
+  height: 240px;
+   border: 1px solid #DEDEDE;
+  border-radius: 0 0 16px 16px;
+}
 
+.hero__img {
+  border-radius: 16px 16px 0 0;
+}
 
 .gallery {
   margin-top: 28px;
@@ -258,7 +271,6 @@ h1 {
   row-gap: 24px;
 }
 
-
 .gallery__background {
   position: absolute;
   z-index: 0;
@@ -266,7 +278,6 @@ h1 {
   left: 0;
   width: 100%;
   max-height: 100%;
-
 }
 
 .gallery__item {
@@ -278,7 +289,6 @@ h1 {
   overflow: hidden;
   grid-column: span 3;
   height: 499px;
-
 }
 
 .gallery__item_small {
@@ -303,8 +313,6 @@ h1 {
   font-size: 14px;
   font-weight: 600;
   white-space: nowrap;
-
-
 }
 
 .filters__list :hover {
@@ -370,8 +378,6 @@ picture {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-
 }
 
 .more-button {
@@ -443,7 +449,6 @@ form {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 input {
