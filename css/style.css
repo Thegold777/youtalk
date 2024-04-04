@@ -118,13 +118,14 @@ textarea:not([rows]) {
   max-width: 1200px;
 }
 
+.header-container,
 .hero-container {
-
   display: flex;
   justify-content: start;
   align-items: center;
   flex-wrap: nowrap;
 }
+
 .header__menu {
   display: flex;
   justify-content: space-between;
