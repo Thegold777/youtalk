@@ -279,6 +279,19 @@ h1 {
   color: rgba(51, 51, 51, 1);
   display: inline-block;
   margin-bottom: 8px;
+}
+
+.hero__small{
+  display: flex;
+  margin: 24px 8px 6px 8px;
+  padding: 40px;
+  justify-content: ;
+  width: 384px;
+  height: 260px;
+}
+
+
+
 
 }
 
