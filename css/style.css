@@ -185,6 +185,15 @@ textarea:not([rows]) {
   gap: 8px;
 }
 
+.hero__title{
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+  margin-bottom: 4px;
+}
+
 .nav-links {
   display: flex;
   flex-wrap: nowrap;
@@ -200,6 +209,7 @@ h1 {
   font-weight: 700;
   margin-top: 30px;
 }
+
 .breadcrumb {
   display: flex;
   margin-top: 16px;
@@ -279,21 +289,34 @@ h1 {
   color: rgba(51, 51, 51, 1);
   display: inline-block;
   margin-bottom: 8px;
+  display: flex;
+}
+
+.hero__category img{
+  margin-right: 4px;
 }
 
 .hero__small{
   display: flex;
   margin: 24px 8px 6px 8px;
   padding: 40px;
-  justify-content: ;
   width: 384px;
   height: 260px;
 }
 
+.hero__fig{
 
-
+  padding: 16px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 200px;
 
 }
+
+
+
 
 .gallery {
   margin-top: 28px;
