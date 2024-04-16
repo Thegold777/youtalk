@@ -274,10 +274,23 @@ h1 {
 }
 
 .hero__info {
-    width: 588px;
-    height: 499px;
-    position: relative;
+  width: 588px;
+  height: 499px;
+  position: relative;
 }
+
+ .hero2__title {
+
+   font-family: Montserrat;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 26px;
+   text-align: left;
+
+ }
+
+
+
 
 .hero__content {
     width: 588px;
@@ -288,6 +301,11 @@ h1 {
 
 .hero__img {
     border-radius: 16px 16px 0 0;
+}
+
+.hero2__img {
+
+  border-radius: 16px 16px 0 0;
 }
 
 .hero__tag {
@@ -316,6 +334,23 @@ h1 {
     align-items: flex-start;
 }
 
+.hero2__category {
+  height: 32px;
+  padding: 6px 8px 6px 8px;
+  border-radius: 24px;
+  border: 1px solid #C1C5CD;
+  background: rgba(255, 255, 255, 0.7);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  color: rgba(51, 51, 51, 1);
+  margin-bottom: 8px;
+  display: flex;
+  align-items: flex-start;
+}
+
 .hero__category img {
     margin-right: 4px;
 }
@@ -328,7 +363,21 @@ h1 {
     height: 260px;
 }
 
+
+
 .hero__fig {
+
+  padding: 16px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 200px;
+}
+
+
+
+.hero2__fig {
 
     padding: 16px;
     justify-content: space-between;
@@ -336,9 +385,10 @@ h1 {
     flex-direction: column;
     align-items: stretch;
     height: 200px;
+  }
 
-}
-.hero__author{
+
+.hero__author {
   font-family: Montserrat;
   font-size: 12px;
   font-weight: 400;
@@ -347,7 +397,11 @@ h1 {
   text-align: left;
 
 }
+.hero-position {
+  position:relative ;
 
+
+}
 .gallery {
     margin-top: 28px;
     display: grid;
