@@ -208,7 +208,8 @@ textarea:not([rows]) {
 .hero2__info {
     width: 384px;
     height: 475px;
-    border-radius: 16px 0 0 0;
+    border-radius: 16px;
+  border: 1px solid rgba(222, 222, 222, 1);
 
 }
 
@@ -312,7 +313,7 @@ h1 {
     border-radius: 16px 16px 0 0;
 }
 
-.hero__tag {
+.hero__tag, .hero2__tag {
     position: absolute;
     top: 8px;
     left: 8px;
@@ -527,10 +528,49 @@ picture {
     background-color: #35B3A9;
     width: 182px;
 }
+footer{
+  background-color: #2963A3;
+  color: #fff;
 
+
+}
 .footer {
-    background-color: #2963A3;
-    color: #fff;
+width: 1200px;
+  margin: auto;
+  display: flex;
+padding: 40px 0 24px;
+  justify-content: space-between;
+}
+
+.footer__item{
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+margin-bottom: 16px;
+}
+
+.footer__input {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+}
+
+.footer__letter {
+  width: 486px;
+}
+
+.footer__button_info {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+  text-align: left;
+
 }
 
 .footer-end {
@@ -580,8 +620,10 @@ picture {
     gap: 8px;
 }
 
-form {
+.footer__letter form {
     display: flex;
+    margin: 8px 0 8px;
+
 }
 
 .footer-button__arrow {
@@ -591,6 +633,27 @@ form {
     align-items: center;
     justify-content: center;
 }
+
+
+.footer__info {
+display: flex;
+  width: 176px;
+  justify-content: space-between;
+margin: 40px 0 0;
+}
+
+.footer__links {
+  border-top: 1px solid #FFF;
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 16px;
+}
+
+.footer__links_list {
+  margin-right: 48px;
+}
+
 
 input {
     border: 1px solid rgba(157, 157, 157, 0.2);
