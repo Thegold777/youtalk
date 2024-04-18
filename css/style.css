@@ -816,6 +816,17 @@ input {
         width: 48px;
         height: 34px;
     }
+    .filters__list {
+        height: 53px;
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+        overflow-y: hidden;
+    }
+
+    .hero__info {
+        width: 374px;
+        height: 466px;
+    }
 }
 
 /* Iphone SE Поправить отступы!!! */
