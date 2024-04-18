@@ -296,6 +296,7 @@ h1 {
     font-weight: 700;
     line-height: 26px;
     text-align: left;
+    margin-bottom: 4px;
 }
 
 .hero__content {
@@ -311,6 +312,17 @@ h1 {
 
 .hero2__img {
     border-radius: 16px 16px 0 0;
+}
+
+.hero__date {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.25px;
+  text-align: left;
+  color: rgba(134, 134, 134, 1);
+  
 }
 
 .hero__tag, .hero2__tag {
@@ -395,11 +407,37 @@ h1 {
     line-height: 18px;
     letter-spacing: 0.25px;
     text-align: left;
+}
+
+.hero__p {
+    margin-top: 8px;
+}
+
+.hero2__content {
+    margin-top: 8px;
 
 }
 
+
 .hero-position {
     position: relative;
+}
+
+.hero2__button {
+    margin: 56px auto 96px;
+    color: white;
+    background-color: #35B3A9;
+    width: 182px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+text-align: center;
+
+
 }
 
 .gallery {
@@ -522,12 +560,7 @@ picture {
     justify-content: center;
 }
 
-.more-button {
-    margin: 56px auto 96px;
-    color: white;
-    background-color: #35B3A9;
-    width: 182px;
-}
+
 footer{
   background-color: #2963A3;
   color: #fff;
@@ -538,7 +571,7 @@ footer{
 width: 1200px;
   margin: auto;
   display: flex;
-padding: 40px 0 24px;
+padding: 40px 120px 78px 120px;
   justify-content: space-between;
 }
 
@@ -642,16 +675,19 @@ display: flex;
 margin: 40px 0 0;
 }
 
+
 .footer__links {
   border-top: 1px solid #FFF;
   display: flex;
   width: 1200px;
   margin: 0 auto;
-  padding-top: 16px;
+  padding: 16px 0 17px 120px;
+
 }
 
 .footer__links_list {
   margin-right: 48px;
+  font-family: Montserrat;
 }
 
 
