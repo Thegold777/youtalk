@@ -273,9 +273,13 @@ h1 {
     padding: 6px 8px;
     display: flex;
     flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 0;
 
 }
-
+.filters__list_item div {
+    display: flex;
+}
 #emoji {
     display: flex;
     flex-direction: row;
@@ -795,6 +799,7 @@ input {
     .header {
         max-width: 768px;
     }
+    
 
     .header__navigation-menu {
         display: none;
@@ -809,8 +814,21 @@ input {
     }
     .hero-container {
         flex-wrap: wrap;
-        
+                
        }
+    .hero__info {
+        width: 728px;
+
+    }   
+
+    .hero__img {
+        width: 728px;
+    }
+
+
+    .hero__content {
+        width: 728px;
+    }
 
 }
 
@@ -852,6 +870,16 @@ input {
         width: 374px;
     }  
 
+    .footer {
+        flex-direction: column;
+        padding: 0 14px 0 18px;
+    }
+
+    .footer__links {
+        width: 288px;
+        flex-direction: column;
+        margin: 0 20px 0 19px;
+    }
 
     .footer__button {
         display: flex;
@@ -860,6 +888,11 @@ input {
     .footer__letter{
         width: 374px;
     }
+
+    .footer__socials {
+        margin-bottom: 23px;
+        margin-top: 5px;
+    }    
 }
 
 /* Iphone SE  */
