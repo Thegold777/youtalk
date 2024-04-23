@@ -1,0 +1,10 @@
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+.left-content {
+    width: 690px;
+}
+.right-content {
+    width: 282px;
+}

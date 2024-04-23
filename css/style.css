@@ -708,8 +708,11 @@ margin: 40px 0 0;
   margin-right: 48px;
   font-family: Montserrat;
 }
-
-
+.footer__text {
+    display: flex;
+    width: 310px;
+    justify-content: space-between;
+}
 input {
     border: 1px solid rgba(157, 157, 157, 0.2);
     border-radius: 4px;
@@ -843,16 +846,26 @@ input {
 
     .hero-container {
         flex-wrap: wrap;
-        
+        margin-right: 20px;
       }
+    .hero__content {
+        width: 374px;
+    }  
+
+
+    .footer__button {
+        display: flex;
+    }  
+
+    .footer__letter{
+        width: 374px;
+    }
 }
 
 /* Iphone SE  */
 @media (max-width: 375px) {
     .container {
         max-width: 288px;
-
-
     }
 
     .header {
@@ -868,7 +881,39 @@ input {
 
     .hero-container {
         flex-wrap: wrap; 
+    
     }
 
+    .footer__button {
+        display: none;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding: 0 14px 0 18px;
+    }
+
+    .footer__text {
+        width: 288px;
+    }
+    
+    .footer__letter {
+        width: 288px;
+    }
+    .footer__links {
+        width: 288px;
+        flex-direction: column;
+    }
+    .footer__input_enter {
+        width: 288px;
+        
+    }
+.footer__links_list { 
+margin: 0 0 24px 0;
+}
+.footer__socials {
+    margin-bottom: 23px;
+    margin-top: 5px;
+}
 
 }
