@@ -177,14 +177,44 @@ a {
     font-size: 16px;
     font-family: Montserrat;
     font-weight: 500;
+    
 }
-
-h4 
 
 .exercise1 {
-display: flex;
-margin: 56px 24px 24px 24px;
-background: rgba(254, 250, 236, 1);
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
 
+.exercise2 {
+
+    margin: 24px 0 24px;
+}
+
+.foto-text-small {
+display: flex;
 
 }
+
+.content-text3 {
+    margin-left: 24px;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 500;
+    margin-left: 24px;
+}
+
+.foto-text-2small {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+span {
+
+    margin-left: 256px;
+}
+
+
+
+    
+
