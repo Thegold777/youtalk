@@ -814,10 +814,13 @@ input {
     }
     .hero-container {
         flex-wrap: wrap;
+        margin-bottom: 0;
                 
        }
     .hero__info {
         width: 728px;
+        height: auto;
+        margin-bottom: 24px;
 
     }   
 
@@ -828,6 +831,14 @@ input {
 
     .hero__content {
         width: 728px;
+    }
+    .hero2__info {
+        width: 352px;
+    }
+
+    .footer {
+        
+        padding: 35 20px 0 20px;
     }
 
 }
