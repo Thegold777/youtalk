@@ -133,7 +133,7 @@ h3 {
     display: block;
     background-color: #03b2a5;
     border-radius: 4px;
-    
+
 }
 
 .content-small {
@@ -151,7 +151,7 @@ h3 {
 }
 
 .foto-text {
-    display: flex; 
+    display: flex;
 }
 
 .content-text {
@@ -177,7 +177,7 @@ a {
     font-size: 16px;
     font-family: Montserrat;
     font-weight: 500;
-    
+
 }
 
 .exercise1 {
@@ -191,7 +191,7 @@ a {
 }
 
 .foto-text-small {
-display: flex;
+    display: flex;
 
 }
 
@@ -206,15 +206,95 @@ display: flex;
 .foto-text-2small {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
-span {
+.lightning {
+    display: block;
+    align-items: center;
+    justify-content: center;
 
-    margin-left: 256px;
+}
+
+.exercise3 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.self {
+    display: flex;
+    flex-direction: row;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(41, 99, 163, 1);
+    padding-left: 0;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.self>li ::before {
+    content: "\00B7";
+    /* Код символа для точки (·) */
+    position: absolute;
+    right: 0;
+}
+
+.small__text p {
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 26px;
+margin-top: 24px;
+
+}
+
+.small__text-button{
+width: 238px;
+height: 60px;
+padding: 20px 24px 20px 24px;
+gap: 10px;
+border-radius: 4px 0px 0px 0px;
+opacity: 0px;
+background: rgba(22, 200, 187, 1);
+margin-top: 32px;
+margin-bottom: 56px;
+color: rgba(255, 255, 255, 1);
+}
+
+
+.first__bloc {
+display: flex;
+flex-direction: column;
+border-radius: 10px;
+background: rgba(230, 240, 253, 1);
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: center;
 }
 
 
 
-    
+.right-button {
+width: 234px;
+height: 48px;
+padding: 12px 16px 12px 16px;
+gap: 8px;
+border-radius: 4px;
+opacity: 0px;
+background: rgba(53, 179, 169, 1);
+color: rgba(255, 255, 255, 1);
+margin: 24px 24px 24px 24px;
+
+}
+
+.foto {
+    border-radius: 50%;
+}
 
