@@ -512,3 +512,12 @@ line-height: 32px;
     top: -333px;
     background: rgba(41, 99, 163, 0.6);
 }
+
+
+
+/* Ipad pro */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 934px;
+    }
+}
